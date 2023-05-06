@@ -64,7 +64,7 @@ function setup() {
     Turn off the progressive background mode (we will use a static background
     image).
   */
-  myVida.progressiveBackgroundFlag = false;
+  myVida.progressiveBackgroundFlag = true;
   /*
     The value of the threshold for the procedure that calculates the threshold
     image. The value should be in the range from 0.0 to 1.0 (float).
