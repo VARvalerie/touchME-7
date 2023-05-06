@@ -79,6 +79,8 @@ function setup() {
       [your vida object].MIRROR_BOTH
     The default value is MIRROR_NONE.
   */
+  myVida.imageFilterInvert;
+  
   myVida.mirror = myVida.MIRROR_HORIZONTAL;
   /*
     In order for VIDA to handle active zones (it doesn't by default), we set
